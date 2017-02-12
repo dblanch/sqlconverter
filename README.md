@@ -10,10 +10,10 @@ The problem is that the aproach taken, using regular expressions, is not enough 
 
 So i'm going to develop a translator for:
 
-* Oracle outer joins, this is with table1.id =+ table2.table1_id have to be translated to LEFT JOIN syntax.
+* Oracle outer joins, this is with table1.id = table2.table1_id have (+) to be translated to LEFT JOIN syntax.
 
 * Oracle functions and packages to postgresql counterpart.
 
 * Functions with nested expressions, included functions.
 
-* Application embedded SQL 
+* Application embedded SQL, that is expresion with palceholders like ?, i.e SELECT ... FROM where field1 = ? ...
